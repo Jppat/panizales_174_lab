@@ -1,0 +1,23 @@
+README:
+lab2 | CMSC 174 | Computer Vision
+Author: John Patrick T. Panizales 
+Keywords: Hybrid Images, Low Pass Filtering, High Pass Filtering, Gaussian Blurs
+
+* High Pass Parameters *
+> kernel size = 30
+> sigma = 5 
+
+* Low Pass Parameters *
+> kernel size = 30
+> sigma = 5
+
+* Mix-in ratio *
+> depends on the imags
+> cat-dog : 1/2
+> blinking white guy meme: 1/3
+> shrek: 0.55
+
+* High-Low Setups *
+> cat-dog: cat - high | dog - low
+> blinking hwite guy meme - open eyes - high | closed eyes - low
+> shrek - ogre - high | human - low
